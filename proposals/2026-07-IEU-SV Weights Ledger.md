@@ -95,7 +95,7 @@ Making sure that each such coupon actually gets created will _not_ be enforced b
 No UI changes are expected regarding coupon creation.
 
 #### Migration
-There will be a choice provided in `DsoRules` with a corresponding vote to allow migration from the old model to the new.
+There will be a choice provided in `DsoRules` with a corresponding vote to allow migration from the old model to the new. The migration does not require any action on the side of existing beneficiaries. The reward minting flow on their side is unchanged.
 
 This migration voted action will be made available in the voting UI.
 
