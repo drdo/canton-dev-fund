@@ -69,7 +69,7 @@ A UI will be provided such that an SV Right Owner admin user is able to:
 - View information about its SV Right Owner status
 - Manage its beneficiaries
 
-This will be supported by choices in the Daml model and additional endpoints to be added to the Validator API.
+This will be supported by choices in the Daml model.
 
 Both the SV UI and Scan UI will be extended to include information about existing SV Right Owners,
 supported by an endpoint to be added to the Scan API.
