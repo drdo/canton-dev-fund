@@ -54,7 +54,7 @@ Goals include:
 ### 2. Implementation Mechanics
 #### Introduction
 We will represent each SV Right Owner on the ledger along with its reward weight and beneficiaries (along with the proportion of rewards each beneficiary should receive).
-The representation will be such that `dso` approval is required for changes to SV Right Owner reward weights.
+To change the reward weight of an SV Right Owner, an SV vote is required.
 
 This will completely replace the `extraBeneficiaries` off-ledger configuration.
 
