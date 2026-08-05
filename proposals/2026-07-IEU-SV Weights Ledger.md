@@ -71,7 +71,7 @@ A UI will be provided such that an SV Right Owner admin user is able to:
 
 This will be supported by choices in the Daml model.
 
-Both the SV UI and Scan UI will be extended to include information about existing SV Right Owners,
+Both the SV UI and Scan UI will be extended to include information about SV Right Owners,
 supported by an endpoint to be added to the Scan API.
 
 A few voted actions will be added to the Daml model and the SV UI to allow managing SV Right Owners in at least the following ways:
