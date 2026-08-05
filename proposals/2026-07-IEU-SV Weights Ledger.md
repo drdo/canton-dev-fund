@@ -82,7 +82,7 @@ A few voted actions will be added to the Daml model and the SV UI to allow manag
 - Migrate an SV Right Owner to a different SV Node
 
 #### Coupon Creation
-SV Reward Coupons will continue to be created by each SV Node on behalf of their SV Right Owners.
+SV Reward Coupons will continue to be created by each SV Node on behalf of SV right owners hosted on that node for reward minting.
 One `SVRewardCoupon` per round will be created for each beneficiary of each SV Right Owner (plus one for the SV Right Owner itself if there is leftover weight).
 
 `DsoRules` will be extended with a choice to do this.
