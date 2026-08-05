@@ -90,7 +90,7 @@ There will be contracts tracking the reward collection state for the SV Right Ow
 no double dipping happens.
 
 Within an SV Right Owner, it will be guaranteed by the Daml model that each beneficiary gets at most one `SVRewardCoupon` per round and with the correct weight.
-Making sure that each such coupon actually gets created will _not_ be enforced by the Daml model (it is possible for a malicious SV Node to fail to create coupons).
+Making sure that each such coupon actually gets created will _not_ be enforced by the Daml model (it is possible for a malicious SV Node or in the case of an SV outage that no coupons are created).
 
 No UI changes are expected regarding coupon creation.
 
