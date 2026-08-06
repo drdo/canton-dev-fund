@@ -136,7 +136,7 @@ The system can continue operating at all points in time.
 - **Estimated Delivery:** +10 weeks from DFP approval
 - **Focus:** Implement the Daml Draft and the CIP
 - **Deliverables / Value Metrics:**
-  - Daml PR with a draft implementation approved by Splice core maintainers and merged into the main branch of the feature fork of Splice.
+  - Daml PR with a draft implementation approved by Splice core maintainers.
   - CIP submitted
   - CIP approved
 
