@@ -101,11 +101,15 @@ This migration voted action will be made available in the voting UI.
 
 #### Changes to SV Node Onboarding Flow
 Since SV Nodes will no longer have any weight associated with them, it is proper that the onboarding flow changes to reflect this.
+We expect only minor changes to the codebase to reflect the fact that we no longer have reward weight associated with SV Nodes.
 
-The existing onboarding flow will be reused as much as possible, but some steps will be changed such that we do not have to specify
-weight and related properties when onboarding an SV Node.
+In the typical case of a new SV Node with some associated reward weight, the onboarding will be done in two steps:
 
-The offboarding process is not expected to change.
+1. The SV Node is onboarded (with no weight attached to them)
+2. We onboard them as an SV Right Owner
+
+The offboarding process will be similar to the onboarding flow.
+We will reuse as much as possible and decouple SV Node / SV Right Owner offboarding.
 
 #### Note
 Many or most of these flows require additional changes to the various backend services,
