@@ -144,11 +144,11 @@ The system can continue operating at all points in time.
   - CIP submitted
   - CIP approved
 
-### Milestone 2: Main Functionality
-- **Estimated Delivery:** +24 weeks from DFP approval
-- **Focus:** Main functionality on MainNet
+### Milestone 2: Implementation
+- **Estimated Delivery:** +33 weeks from DFP approval
+- **Focus:** Deployment on MainNet
 - **Deliverables / Value Metrics:**
-  - Merge a series of PRs with the main functionality (everything except the new SV Node Onboarding flow)
+  - Merge a series of PRs with the functionality
   - Deployment to DevNet
   - Migration to the new model on DevNet
   - Manual testing in DevNet
@@ -156,18 +156,6 @@ The system can continue operating at all points in time.
   - Migration to the new model on TestNet
   - Deployment to Mainnet
   - Migration to the new model on MainNet
-
-### Milestone 3: SV Node Onboarding
-- **Estimated Delivery:** +33 weeks from DFP approval
-- **Focus:** SV Node Onboarding on DevNet
-- **Deliverables / Value Metrics:**
-  - Merge a series of PRs with the new SV Node Onboarding flow
-  - Deployment to DevNet
-  - Manual testing on DevNet
-  - Automated testing in the test cluster operated by DA, in which an SV is reonboarded automatically once a day
-
-Note: MainNet is not an explicit goal because we do not anticipate new SV Node onboardings to happen in the near future.
-
 
 ---
 
